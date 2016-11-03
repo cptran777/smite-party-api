@@ -20,5 +20,6 @@ import partyservice.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^', partyservice.views.index, name = 'index')
+    url(r'^$', partyservice.views.index, name = 'index'),
+    url(r'^images', partyservice.views.images, name = 'images')
 ]
