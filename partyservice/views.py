@@ -6,14 +6,27 @@ import json
 
 # Create your views here.
 def index(request):
+
 	if (request.method == 'GET'):
 		return JsonResponse({ 'message': 'This is an api for Smite Party' })
 	else:
 		return JsonResponse({ 'message': 'Please make a GET request for gods' })
 
 def images(request):
-	f_img = open('partyservice/static/images/agni.jpg', 'r')
-	response = HttpResponse(content = f_img)
-	response['Content-Type'] = 'image/jpg'
 
-	return response
+	if (request.method == 'GET'):
+
+		for x in request.GET:
+			
+			if (x == 'name'):
+				f_name = request.GET[x]			
+				f_img = open('partyservice/static/images/%s' % f_name, 'r')
+
+				response = HttpResponse(content = f_img)
+				response['Content-Type'] = 'image/jpg'
+
+				return response
+
+	else:
+
+		return JsonResponse({ 'message': 'Please make a GET request for images' })
