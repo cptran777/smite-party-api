@@ -43,4 +43,714 @@
 		"god_class": "Mage",
 		"god_image": "http://smite-party-api.herokuapp.com/images?name=anubis.jpg"
 	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 6,
+	"fields": {
+		"god_name": "Ao Kuang",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=ao%20kuang.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 7,
+	"fields": {
+		"god_name": "Aphrodite",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=aphrodite.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 8,
+	"fields": {
+		"god_name": "Apollo",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=apollo.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 9,
+	"fields": {
+		"god_name": "Arachne",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=arachne.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 10,
+	"fields": {
+		"god_name": "Ares",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=ares.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 11,
+	"fields": {
+		"god_name": "Artemis",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=artemis.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 12,
+	"fields": {
+		"god_name": "Athena",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=athena.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 13,
+	"fields": {
+		"god_name": "Au Puch",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=au%20puch.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 14,
+	"fields": {
+		"god_name": "Awilix",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=awilix.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 15,
+	"fields": {
+		"god_name": "Bacchus",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=bacchus.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 16,
+	"fields": {
+		"god_name": "Bakasura",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=bakasura.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 17,
+	"fields": {
+		"god_name": "Bastet",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=bastet.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 18,
+	"fields": {
+		"god_name": "Bellona",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=bellona.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 19,
+	"fields": {
+		"god_name": "Cabrakan",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=cabrakan.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 20,
+	"fields": {
+		"god_name": "Chaac",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=chaac.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 21,
+	"fields": {
+		"god_name": "Chang'e",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=change.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 22,
+	"fields": {
+		"god_name": "Chiron",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=chiron.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 23,
+	"fields": {
+		"god_name": "Chronos",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=chronos.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 24,
+	"fields": {
+		"god_name": "Cupid",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=cupid.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 25,
+	"fields": {
+		"god_name": "Erlang Shen",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=erlang%20shen.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 26,
+	"fields": {
+		"god_name": "Fafnir",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=fafnir.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 27,
+	"fields": {
+		"god_name": "Fenrir",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=fenrir.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 28,
+	"fields": {
+		"god_name": "Freya",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=freya.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 29,
+	"fields": {
+		"god_name": "Geb",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=geb.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 30,
+	"fields": {
+		"god_name": "Guan Yu",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=guan%20yu.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 31,
+	"fields": {
+		"god_name": "Hades",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=hades.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 32,
+	"fields": {
+		"god_name": "He Bo",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=he%20bo.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 33,
+	"fields": {
+		"god_name": "Hel",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=hel.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 34,
+	"fields": {
+		"god_name": "Hercules",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=hercules.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 35,
+	"fields": {
+		"god_name": "Hou Yi",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=hou%20yi.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 36,
+	"fields": {
+		"god_name": "Hun Batz",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=hun%20batz.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 37,
+	"fields": {
+		"god_name": "Isis",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=isis.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 38,
+	"fields": {
+		"god_name": "Izanami",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=izanami.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 39,
+	"fields": {
+		"god_name": "Janus",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=janus.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 40,
+	"fields": {
+		"god_name": "Jing Wei",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=jing%20wei.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 41,
+	"fields": {
+		"god_name": "Kali",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=kali.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 42,
+	"fields": {
+		"god_name": "Khepri",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=khepri.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 43,
+	"fields": {
+		"god_name": "Kukulkan",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=kukulkan.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 44,
+	"fields": {
+		"god_name": "Kumbhakarna",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=kumbhakarna.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 45,
+	"fields": {
+		"god_name": "Loki",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=loki.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 46,
+	"fields": {
+		"god_name": "Medusa",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=medusa.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 47,
+	"fields": {
+		"god_name": "Mercury",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=mercury.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 48,
+	"fields": {
+		"god_name": "Ne Zha",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=ne%20zha.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 49,
+	"fields": {
+		"god_name": "Neith",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=neith.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 50,
+	"fields": {
+		"god_name": "Nemesis",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=nemesis.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 51,
+	"fields": {
+		"god_name": "Nox",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=nox.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 52,
+	"fields": {
+		"god_name": "Nu Wa",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=nu%20wa.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 53,
+	"fields": {
+		"god_name": "Odin",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=odin.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 54,
+	"fields": {
+		"god_name": "Osiris",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=osiris.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 55,
+	"fields": {
+		"god_name": "Poseidon",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=poseidon.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 56,
+	"fields": {
+		"god_name": "Ra",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=ra.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 57,
+	"fields": {
+		"god_name": "Raijin",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=raijin.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 58,
+	"fields": {
+		"god_name": "Rama",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=rama.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 59,
+	"fields": {
+		"god_name": "Ratatoskr",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=ratatoskr.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 60,
+	"fields": {
+		"god_name": "Ravana",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=ravana.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 61,
+	"fields": {
+		"god_name": "Scylla",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=scylla.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 62,
+	"fields": {
+		"god_name": "Serqet",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=serqet.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 63,
+	"fields": {
+		"god_name": "Skadi",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=skadi.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 64,
+	"fields": {
+		"god_name": "Sobek",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=sobek.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 65,
+	"fields": {
+		"god_name": "Sol",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=sol.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 66,
+	"fields": {
+		"god_name": "Sun Wukong",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=sun%20wukong.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 67,
+	"fields": {
+		"god_name": "Susano",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=susano.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 68,
+	"fields": {
+		"god_name": "Sylvanus",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=sylvanus.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 69,
+	"fields": {
+		"god_name": "Terra",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=terra.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 70,
+	"fields": {
+		"god_name": "Thanatos",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=thanatos.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 71,
+	"fields": {
+		"god_name": "Thor",
+		"god_type": "Physical",
+		"god_class": "Assassin",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=thor.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 72,
+	"fields": {
+		"god_name": "Tyr",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=tyr.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 73,
+	"fields": {
+		"god_name": "Ullr",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=ullr.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 74,
+	"fields": {
+		"god_name": "Vamana",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=vamana.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 75,
+	"fields": {
+		"god_name": "Vulcan",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=vulcan.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 76,
+	"fields": {
+		"god_name": "X'balanque",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=xbalanque.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 77,
+	"fields": {
+		"god_name": "Xing Tian",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=xing%20tian.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 78,
+	"fields": {
+		"god_name": "Ymir",
+		"god_type": "Magical",
+		"god_class": "Guardian",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=ymir.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 79,
+	"fields": {
+		"god_name": "Zeus",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=zeus.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 80,
+	"fields": {
+		"god_name": "Zhong Kui",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=zhong%20kui.jpg"
+	}
+}, {
+	"model": "partyservice.Roles",
+	"pk": 1,
+	"fields": {
+		"role_name": "Carry",
+		"role_gods": [2, 4, 8, 11, 16, 17, 22, 23, 24, 28, 35, 38, 40, 45, 46, 49, 58, 63, 73, 76]
+	}
+}, {
+	"model": "partyservice.Roles",
+	"pk": 2,
+	"fields": {
+		"role_name": "Support",
+		"role_gods": [3, 7, 10, 12, 15, 19, 21, 26, 29, 30, 33, 42, 44, 53, 56, 64, 68, 69, 77, 78]
+	}
+}, {
+	"model": "partyservice.Roles",
+	"pk": 3,
+	"fields": {
+		"role_name": "Mid",
+		"role_gods": [1, 2, 4, 5, 7, 13, 21, 23, 28, 31, 32, 37, 38, 39, 43, 49, 51, 52, 55, 56, 57, 61, 65, 75, 79, 80]
+	}
+}, {
+	"model": "partyservice.Roles",
+	"pk": 4,
+	"fields": {
+		"role_name": "Solo",
+		"role_gods": [3, 7, 12, 14, 15, 16, 18, 20, 21, 24, 25, 30, 33, 34, 38, 40, 45, 49, 52, 54, 56, 60, 63, 64, 65, 66, 72, 74, 75, 78, 80]
+	}
+}, {
+	"model": "partyservice.Roles",
+	"pk": 5,
+	"fields": {
+		"role_name": "Jungler",
+		"role_gods": [3, 6, 9, 14, 16, 17, 18, 19, 27, 36, 41, 44, 45, 47, 48, 50, 53, 59, 62, 67, 70, 71, 78]
+	}
 }]
