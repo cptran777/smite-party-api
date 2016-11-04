@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'partyservice'
 ]
 
 MIDDLEWARE = [
@@ -81,6 +82,9 @@ DATABASES = {
     }
 }
 
+FIXTURE_DIRS = {
+    'partyservice/fixtures/initial_gods.json'
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators

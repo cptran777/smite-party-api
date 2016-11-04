@@ -1,0 +1,46 @@
+[{
+	"model": "partyservice.Gods",
+	"pk": 1,
+	"fields": {
+		"god_name": "Agni",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=agni.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 2,
+	"fields": {
+		"god_name": "Ah Muzen Cab",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=ah%20muzen%20cab.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 3,
+	"fields": {
+		"god_name": "Amaterasu",
+		"god_type": "Physical",
+		"god_class": "Warrior",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=amaterasu.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 4,
+	"fields": {
+		"god_name": "Anhur",
+		"god_type": "Physical",
+		"god_class": "Hunter",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=anhur.jpg"
+	}
+}, {
+	"model": "partyservice.Gods",
+	"pk": 5,
+	"fields": {
+		"god_name": "Anubis",
+		"god_type": "Magical",
+		"god_class": "Mage",
+		"god_image": "http://smite-party-api.herokuapp.com/images?name=anubis.jpg"
+	}
+}]
