@@ -21,5 +21,6 @@ import partyservice.views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', partyservice.views.index, name = 'index'),
+    url(r'^randomize', partyservice.views.randomize, name = 'randomize'),
     url(r'^images', partyservice.views.images, name = 'images')
 ]

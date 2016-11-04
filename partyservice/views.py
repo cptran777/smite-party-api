@@ -4,13 +4,18 @@ from django.core import serializers
 
 import json
 
-# Create your views here.
+from .models import Gods, Roles
+
 def index(request):
 
 	if (request.method == 'GET'):
 		return JsonResponse({ 'message': 'This is an api for Smite Party' })
 	else:
 		return JsonResponse({ 'message': 'Please make a GET request for gods' })
+
+def randomize(request): 
+
+	return JsonResponse({ 'message': 'Randomizer' })
 
 def images(request):
 
