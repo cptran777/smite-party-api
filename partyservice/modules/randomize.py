@@ -21,13 +21,18 @@ def shuffle(arr):
 # 	return output
 
 # Returns a function to be passed to the filter function
-def filter_function(**kwargs):
+def filter_function(option, **kwargs):
 
 	def output(item):
 		for key in kwargs.keys():
-			if item['fields'].get(key, None) == kwargs[key]:
-				return True
-		return False
+			if isinstance(kwargs[key], list):
+				for val in kwargs[key]:
+					if item['fields'].get(key, None) == val:
+						return True if option == 'include' else False
+			else:
+				if item['fields'].get(key, None) == kwargs[key]:
+					return True if option == 'include' else False
+		return False if option == 'include' else True
 
 	return output
 
@@ -92,24 +97,29 @@ def randomizer(gods, roles):
 	# Choosing the carry:
 	carry_list = select(roles_query, role_name = 'Carry')['fields']['role_gods']
 	gods_list = filter_by_list(gods_query, None, pk = carry_list)
-	output['carry'] = rand_select(gods_query)
+	output['carry'] = rand_select(gods_list)['fields']
 
 	# Choosing the guardian:
 	# The guardian should simply be the opposite type from the carry
 	support_filter = None
-	if output['carry']['fields'].get('god_type', 0) == 'Physical':
+	if output['carry'].get('god_type', 0) == 'Physical':
 		support_filter = 'Magical'
 	else:
 		support_filter = 'Physical'
 
 	support_list = select(roles_query, role_name = 'Support')['fields']['role_gods']
-	gods_list = filter(filter_function(god_type = support_filter), filter_by_list(gods_query, None, pk = support_list))
+	gods_list = filter(filter_function('include', god_type = support_filter), filter_by_list(gods_query, None, pk = support_list))
+	output['support'] = rand_select(gods_list)['fields']
 
-	print output['carry']['fields'].get('god_type', 0)
+	# Choosing the mid laner:
+	mid_filter = None
+	if output['carry'].get('god_class', 0) == 'Hunter':
+		mid_filter = 'Hunter'
+	
+	mid_list = select(roles_query, role_name = 'Mid')['fields']['role_gods']
+	gods_list = filter(filter_function('exclude', god_class = mid_filter, god_name = [output['carry']['god_name'], output['support']['god_name']]), filter_by_list(gods_query, None, pk = mid_list))
+	output['mid'] = rand_select(gods_list)['fields']
 
-	print gods_list
-	# output['carry'] = rand_select()
-
-	# print randint(0, 10)
+	print output
 
 	return 7
