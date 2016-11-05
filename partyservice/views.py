@@ -5,17 +5,25 @@ from django.core import serializers
 import json
 
 from .models import Gods, Roles
+from modules.randomize import randomizer
 
 def index(request):
 
 	if (request.method == 'GET'):
-		return JsonResponse({ 'message': 'This is an api for Smite Party' })
+		return JsonResponse({'message': 'This is an api for Smite Party'})
 	else:
-		return JsonResponse({ 'message': 'Please make a GET request for gods' })
+		return JsonResponse({'message': 'Please make a GET request for gods'})
 
 def randomize(request): 
 
-	return JsonResponse({ 'message': 'Randomizer' })
+	if (request.method == 'GET'): 
+
+		print randomizer(Gods, Roles)
+		return JsonResponse({'message': 'Default message for randomizer'})
+
+	else:
+
+		return JsonResponse({'message': 'Please make a GET request for randomizer'})
 
 def images(request):
 
