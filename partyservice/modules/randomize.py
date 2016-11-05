@@ -1,34 +1,67 @@
 from django.core import serializers
 from random import randint
 
-def test():
-
-	print 'Hello and fuck the job search'
+import json
 
 def shuffle(arr):
 
 	return 'test'
 
 # Returns a list/array where the element(s) meets the criteria
-def filter(arr, **kwargs):
+# def filter(arr, **kwargs):
 	
-	output = []
+# 	output = []
 
-	for item in arr:
+# 	for item in arr:
+# 		for key in kwargs.keys():
+# 			if (item['fields'].get(key, None) == kwargs[key]):
+# 				output.append(item)
+# 				break;
+
+# 	return output
+
+# Returns a function to be passed to the filter function
+def filter_function(**kwargs):
+
+	def output(item):
 		for key in kwargs.keys():
-			if (item.get(key, None) == kwargs[key]):
-				output.append(item)
-				break;
+			if item['fields'].get(key, None) == kwargs[key]:
+				return True
+		return False
 
 	return output
 
-# Returns a single object that meets a criteria
+# Does the same thing as filter for an array of objects/dicts, but
+# with the added criteria of if the object's field name has a value
+# contained in a list denoted by keyword = value
+# can be passed a props for nested properties
+def filter_by_list(arr, prop, **kwargs):
+
+	output = []
+
+	if prop: 
+		for item in arr:
+			for key in kwargs.keys():
+				if item[prop].get(key, None) in kwargs[key]:
+					output.append(item)
+					break;
+	else: 
+		for item in arr:
+			for key in kwargs.keys():
+				if item.get(key, None) in kwargs[key]:
+					output.append(item)
+					break;
+
+	return output
+
+# Returns a single object from an array/list if it has a property
+# denoted by keyword in its fields that meets the criteria
 def select(arr, **kwargs):
 	
 	key = kwargs.keys()[0]
 
 	for item in arr:
-		if (item.get(key, None) == kwargs[key]):
+		if item['fields'].get(key, None) == kwargs[key]:
 			return item
 
 	return None
@@ -50,13 +83,32 @@ def randomizer(gods, roles):
 	# Choose solo next, which is decided by the mid/carry choices
 	# Choose jungler last, which can be affected by the solo choice
 
-	output = []
+	output = {}
 
 	# Two database calls:
-	roles_query = serializers.serialize('json', roles.objects.all())
-	gods_query = serializers.serialize('json', gods.objects.all())
+	roles_query = json.loads(serializers.serialize('json', roles.objects.all()))
+	gods_query = json.loads(serializers.serialize('json', gods.objects.all()))
 
 	# Choosing the carry:
+	carry_list = select(roles_query, role_name = 'Carry')['fields']['role_gods']
+	gods_list = filter_by_list(gods_query, None, pk = carry_list)
+	output['carry'] = rand_select(gods_query)
+
+	# Choosing the guardian:
+	# The guardian should simply be the opposite type from the carry
+	support_filter = None
+	if output['carry']['fields'].get('god_type', 0) == 'Physical':
+		support_filter = 'Magical'
+	else:
+		support_filter = 'Physical'
+
+	support_list = select(roles_query, role_name = 'Support')['fields']['role_gods']
+	gods_list = filter(filter_function(god_type = support_filter), filter_by_list(gods_query, None, pk = support_list))
+
+	print output['carry']['fields'].get('god_type', 0)
+
+	print gods_list
+	# output['carry'] = rand_select()
 
 	# print randint(0, 10)
 
