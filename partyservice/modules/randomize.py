@@ -31,7 +31,12 @@ def select(arr, **kwargs):
 		if (item.get(key, None) == kwargs[key]):
 			return item
 
-	return None 
+	return None
+
+# Helper to return a random element from an array
+def rand_select(arr): 
+
+	return arr[randint(0, len(arr) - 1)]
 
 # Randomizer is passed the gods and roles models to make queries
 def randomizer(gods, roles): 
@@ -52,11 +57,6 @@ def randomizer(gods, roles):
 	gods_query = serializers.serialize('json', gods.objects.all())
 
 	# Choosing the carry:
-
-	print 'testing filter: '
-	myArray = [{'a': 5, 'b': 6}, {'b': 6, 'c': 3}, {'a': 5, 'c': 3}, {'a': 3, 'b': 6}]
-	print filter(myArray, a = 5)
-	print select(myArray, a = 3)
 
 	# print randint(0, 10)
 

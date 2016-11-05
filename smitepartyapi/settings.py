@@ -128,9 +128,6 @@ import dj_database_url
 
 db_config = dj_database_url.config()
 
-print 'Printing db_config: '
-print db_config
-
 if db_config:
     DATABASES['default'] =  dj_database_url.config()
 
